@@ -7,84 +7,105 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="card box-shadow">
-        <div class="align-center">
-          <img src="images/profile.jpeg" alt="Profile Picture" class="img-circle">
+    <div id="sidebar">
+      <ul class="list-inline">
+        <li>
+          <a href="#bio">
+            <i class="fa fa-id-card-o" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#movies">
+            <i class="fa fa-film" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="http://nicolas.lizop.free.fr" target="_blank">
+            <i class="fa fa-history" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="page-content">
+      <div class="container">
+        <div class="card box-shadow" id="bio">
+          <div class="align-center">
+            <img src="images/profile.jpeg" alt="Profile Picture" class="img-circle">
+          </div>
+          <div>
+            <h1>Nick Lizop</h1>
+            <h2>Programmer</h2>
+            <p>Got bored of working for the Man - let's make some awesome apps to help the world be <strong>faster, stronger, better!</strong></p>
+          </div>
+          <div class="align-center">
+            <a href="#" target="_blank" class="btn-red">Let's go!</a>
+          </div>
         </div>
-        <div id="bio">
-          <h1>Nick Lizop</h1>
-          <h2>Programmer</h2>
-          <p>Got bored of working for the Man - let's make some awesome apps to help the world be <strong>faster, stronger, better!</strong></p>
+        <div class="card box-shadow">
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.facebook.com/nico.li.58" target="_blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <br>
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/lizop/" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <br>
+                Linkedin
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/HoorayForZoidberg" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <br>
+                GitHub
+              </a>
+            </li>
+          </ul>
         </div>
-        <div class="align-center">
-          <a href="#" target="_blank" class="btn-red">Let's go!</a>
+        <div class="card box-shadow align-center" id="movies">
+          <h2>My Favorite Movies</h2>
+          <table id="movie-table">
+            <tbody>
+              <tr>
+                <td>
+                  <img src="images/h2g2.jpg" alt="The Hitchhiker's Guide to the Galaxy">
+                </td>
+                <td>
+                  <h3>The Hitchhiker's Guide to the Galaxy</h3>
+                  <p>
+                    Mere seconds before the Earth is to be demolished by an alien construction crew, journeyman Arthur Dent is swept off the planet by his friend Ford Prefect, a researcher penning a new edition of "The Hitchhiker's Guide to the Galaxy."
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/eternal_sunshine.jpg" alt="Eternal sunshine of the Spotless Mind">
+                </td>
+                <td>
+                  <h3>Eternal Sunshine of the Spotless Mind</h3>
+                  <p>
+                    When their relationship turns sour, a couple undergoes a procedure to have each other erased from their memories. But it is only through the process of loss that they discover what they had to begin with.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/red_october.jpg" alt="The Hunt for Red October">
+                </td>
+                <td>
+                  <h3>The Hunt for Red October</h3>
+                  <p>
+                    In November 1984, the Soviet Union's best submarine captain in their newest sub violates orders and heads for the USA. Is he trying to defect or to start a war?
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </div>
-      <div class="card box-shadow">
-        <ul class="list-inline">
-          <li>
-            <a href="https://www.facebook.com/nico.li.58" target="_blank">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-              <br>
-              Facebook
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/lizop/" target="_blank">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-              <br>
-              Linkedin
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/HoorayForZoidberg" target="_blank">
-              <i class="fa fa-github" aria-hidden="true"></i>
-              <br>
-              GitHub
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="card box-shadow align-center">
-        <h2>My Favorite Movies</h2>
-        <table id="movie-table">
-          <tbody>
-            <tr>
-              <td>
-                <img src="images/h2g2.jpg" alt="The Hitchhiker's Guide to the Galaxy">
-              </td>
-              <td>
-                <h3>The Hitchhiker's Guide to the Galaxy</h3>
-                <p>
-                  Mere seconds before the Earth is to be demolished by an alien construction crew, journeyman Arthur Dent is swept off the planet by his friend Ford Prefect, a researcher penning a new edition of "The Hitchhiker's Guide to the Galaxy."
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="images/eternal_sunshine.jpg" alt="Eternal sunshine of the Spotless Mind">
-              </td>
-              <td>
-                <h3>Eternal Sunshine of the Spotless Mind</h3>
-                <p>
-                  When their relationship turns sour, a couple undergoes a procedure to have each other erased from their memories. But it is only through the process of loss that they discover what they had to begin with.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="images/red_october.jpg" alt="The Hunt for Red October">
-              </td>
-              <td>
-                <h3>The Hunt for Red October</h3>
-                <p>
-                  In November 1984, the Soviet Union's best submarine captain in their newest sub violates orders and heads for the USA. Is he trying to defect or to start a war?
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
       </div>
     </div>
   </body>

@@ -3,9 +3,11 @@ body {
   background-color: #EBEBEB;
   font-family: 'Roboto', sans-serif;
   color: #7D7D7D;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: lighter;
   line-height: 1.6em;
+  padding: 0px;
+  margin: 0px;
 }
 h1 {
   color: #F90050;
@@ -41,8 +43,8 @@ a:hover {
 
 /*Custom*/
 .container {
-  width: 660px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
+  width: 90%;   /* This sets the width */
+  margin: auto; /* This automatically sets left/right margins */
 }
 .card {
   background-color: white;
@@ -89,7 +91,32 @@ a:hover {
 .image {
     height: 100%;
 }
-#bio {
+#sidebar {
+  position: fixed;
+  background-color: #374048;
+  color: white;
+  width: 160px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#sidebar li{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  opacity: 1;
+}
+#sidebar a {
+  font-size: 45px;
+  font-weight: bold;
+  color: inherit;
+}
+#sidebar a:hover{
+  opacity: 0.5;
+}
+#page-content {
+  margin-left: 160px;
+}
+#bio p {
   margin-bottom: 20px;
 }
 #movie-table tr {
